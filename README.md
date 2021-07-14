@@ -12,7 +12,7 @@ var echoUser = new Echo.API("key");
 
 echoUser.on("236517", "started", () => {
     console.log("started!");
-}); //spams with started after started, so might wanna only run shit once
+}); //spams with started after started, so might wanna only run it once
 
 echoUser.on("236517", "finished", () => {
     console.log("finitoed!");
