@@ -1,0 +1,28 @@
+{
+  "name": "echo-tool-api",
+  "version": "1.0.0",
+  "description": "API for Echo (https://dash.echo.ac/docs)",
+  "main": "echo-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josheyr/Echo-Node.git"
+  },
+  "keywords": [
+    "echo",
+    "api",
+    "echo"
+  ],
+  "author": "Josh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josheyr/Echo-Node/issues"
+  },
+  "homepage": "https://echo.ac/",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ws": "^7.5.3"
+  }
+}
