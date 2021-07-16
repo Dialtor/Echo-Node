@@ -26,5 +26,7 @@ echoUser.listen("236517");
 
 echoUser.getUserInfo().then(function(info) {
     console.log(info);
-}); //also theres getScans(length, extended, enterprise), getPlayerInfo(player), and refreshPin(), getPinInfo() for enterprises
+}); //also theres getScans(length, extended, enterprise), getScanInfo(scanUuid), getPlayerInfo(player), and refreshPin(), getPinInfo() for enterprises
 ```
+
+for all the extra functions without examples mentioned above, the responses for them are in https://dash.echo.ac/docs
