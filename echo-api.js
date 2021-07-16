@@ -14,7 +14,7 @@ module.exports = {
         }
 
         async getPlayerInfo(player) {
-            return (await this.request("GET", "/query/me", {
+            return (await this.request("GET", "/query/player", {
                 "key": this.apiKey,
                 "player": player
             })).data.result;
@@ -44,6 +44,13 @@ module.exports = {
                 "length": length,
                 "extended": extended,
                 "enterprise": enterprise
+            })).data.result;
+        }
+
+        async getScanInfo(uuid) {
+            return (await this.request("GET", "/query/scan", {
+                "key": this.apiKey,
+                "uuid": uuid
             })).data.result;
         }
 
